@@ -5,7 +5,7 @@ class Solution:
     def lengthOfLongestSubstring(self, s: 'str') -> 'int':
         letters = {}
         longest_len = 0
-        i = 0;
+        i = 0
         while i < len(s):
             j = i
             while j < len(s):
